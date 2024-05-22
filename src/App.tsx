@@ -14,9 +14,9 @@ const App: React.FC = () => {
     <QueryClientProvider client={queryClient}>
       <Router>
         <Navbar />
-        <div className="container mx-auto mt-4">
+        <div>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/ContactManagement" element={<Home />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/contacts/:id" element={<ContactDetail />} />
           </Routes>
