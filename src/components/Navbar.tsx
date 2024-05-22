@@ -7,7 +7,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-xl">Contact Management App</div>
         <div className="flex space-x-4">
-          <Link to="/" className="text-white">
+          <Link to="/ContactManagement" className="text-white">
             Home
           </Link>
           <Link to="/dashboard" className="text-white">
